@@ -1,8 +1,8 @@
 {
-  "name": "typescript-boilerplate",
+  "name": "typescript-seed",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A basic boilerplate for vanilla Typescript Node.js Project",
+  "main": "build/index.js",
   "scripts": {
     "start:dev": "nodemon",
     "start:prod": "npm run build && node build/index.js",
@@ -10,8 +10,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Simone Gizzi",
+    "email": "simonegizzi85@gmail.com",
+    "url": "https://simonegizzi.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guizzo/typescript-seed.git"
+  },
+  "license": "GPL3",
   "devDependencies": {
     "@types/node": "^13.5.0",
     "nodemon": "^2.0.2",
