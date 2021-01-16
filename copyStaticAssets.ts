@@ -1,4 +1,4 @@
-import * as shell from "shelljs";
+import * as shell from 'shelljs';
 
 /**
  * Put here shell command you want to execute
